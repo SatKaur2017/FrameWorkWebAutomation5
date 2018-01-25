@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>FrameWorkWebAutomation5</artifactId>
         <groupId>SeleniumFrameWork5</groupId>
@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Homedepot</artifactId>
+    <artifactId>whatsApp</artifactId>
     <dependencies>
         <dependency>
             <groupId>SeleniumFrameWork5</groupId>
@@ -25,10 +25,12 @@
                 <version>2.20.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>target/test-classes/HomedepotTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/whatsAppTestRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+
 </project>
